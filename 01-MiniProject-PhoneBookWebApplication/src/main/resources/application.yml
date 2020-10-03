@@ -1,0 +1,30 @@
+server:
+  port: 2323
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    password: mithun
+    url: jdbc:oracle:thin:@localhost:1521/XE
+    username: phone_book
+    dbcp2:
+      max-idle: 1000
+      min-idle: 100
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+        show_sql: true
+  mvc:
+    view:
+      prefix: /views/
+      suffix: .jsp
+#logging:
+#  level:
+#    root: DEBUG
+
+#logging:
+#  file:
+#    name: 01-MiniProject.log
+      
