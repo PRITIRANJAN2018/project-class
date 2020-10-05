@@ -1,0 +1,9 @@
+[main] INFO  com.ashokit.ReportGenerator  - this is info msg
+[main] WARN  com.ashokit.ReportGenerator  - this is warn msg
+[main] ERROR com.ashokit.ReportGenerator  - this is error msg
+[main] FATAL com.ashokit.ReportGenerator  - this is  fatal msg
+[main] DEBUG com.ashokit.ReportGenerator  - this is debug msg
+[main] INFO  com.ashokit.ReportGenerator  - this is info msg
+[main] WARN  com.ashokit.ReportGenerator  - this is warn msg
+[main] ERROR com.ashokit.ReportGenerator  - this is error msg
+[main] FATAL com.ashokit.ReportGenerator  - this is  fatal msg
