@@ -1,0 +1,37 @@
+server:
+  port: 9090
+
+
+
+  
+#spring:
+#  datasource:
+#    username: sa
+#    password: null
+#    url: jdbc:h2:mem:db1
+#    driver-class-name: org.h2.Driver
+
+spring:
+  datasource:
+    username: system
+    password: admin
+    url: jdbc:oracle:thin:@localhost:1521/xe
+    driver-class-name: oracle.jdbc.OracleDriver
+    
+    
+    
+  jpa:
+    hibernate:
+      ddl-auto: update
+      
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+        
+app:        
+  msg:
+    ERROR_MESSAGE: Error in Enrollment Process Try again Later
+    SUCCESS_MESSAGE: |+
+                 Your SSN Enrollment is completed 
+                  Your SSN:-
